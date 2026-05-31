@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FixIt</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="fixit_title">FIXIT</string>
+    <string name="onboard1_subtitle">SKILLED WORKERS</string>
+    <string name="onboard2_subtitle">REPAIRS IN MINUTES</string>
+    <string name="onboard3_subtitle">RELIABLE SERVICE</string>
+    <string name="welcome_message">Hello, welcome!</string>
+    <string name="login_title">Login to continue</string>
+    <string name="login_welcome">Welcome back!</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_submit">Login</string>
+    <string name="signup_link">Don’t have an account? Sign up</string>
+    <string name="signup_title">Create Account Now!</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="phone_hint">Phone No</string>
+    <string name="signup_submit">Sign Up</string>
+
+    <string name="hi_user">Hi, Sarah 👋</string>
+    <string name="fix_it_now">Fix It Now</string>
+    <string name="top_categories">Top Categories</string>
+
+    <string name="tech1_name">James Alex</string>
+    <string name="tech1_desc">Electrician\nAvailable today</string>
+    <string name="tech2_name">Rodni Jhon</string>
+    <string name="tech2_desc">Plumber\nAvailable soon</string>
+    <string name="tech3_name">Lianado Messi</string>
+    <string name="tech3_desc">Wall Painter\nLittle Busy</string>
+
+    <string name="quick_fix_tips">QUICK FIX TIPS</string>
+
+    <string name="your_bookings">Your Bookings</string>
+    <string name="booking1_time">Fri, 4 PM</string>
+    <string name="booking1_status">Up Coming</string>
+
+    <string name="booking2_time">Mon, 1 PM</string>
+    <string name="booking2_status">In Progress</string>
+    <string name="booking3_time">Tue, 10 AM</string>
+    <string name="booking3_status">Completed</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_name">Sarah Johnson</string>
+    <string name="profile_email">sarah.johnson@gmail.com</string>
+    <string name="account_summary">Account Summary</string>
+    <string name="total_bookings">Total Bookings: 27</string>
+    <string name="active_services">Active Services: 3</string>
+
+    <string name="details_title">Details</string>
+</resources>

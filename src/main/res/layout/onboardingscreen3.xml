@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#A8E6CF"
+        android:padding="20dp">
+
+        <!-- Title FIXIT -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIXIT"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="40dp"
+            android:gravity="center"/>
+
+        <!-- Workers Image -->
+
+        <ImageView
+            android:id="@+id/ivWorkers"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/workers3"/>
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RELIEBLE SERVICE "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALL WORKERS ARE BACKGROUND-CHECKED AND REVIEWED BY USES TO ENSURE SAFE AND THRUSTEWORTHY SERVICE."
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <!-- Indicator dots -->
+        <LinearLayout
+            android:id="@+id/indicatorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="5dp"
+                android:layout_margin="4dp"
+                android:background="#90EE90"/>
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="5dp"
+                android:layout_margin="4dp"
+                android:background="#90EE90"/>
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="5dp"
+                android:layout_margin="4dp"
+                android:background="#006400"/>
+        </LinearLayout>
+
+        <!-- Buttons Skip & Next -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnSkip"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#000000"
+                android:text="Skip"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnNext2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#006400"
+                android:text="Get Started"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
